@@ -1,0 +1,67 @@
+.productDetails{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-img{
+    margin-top: -20px;
+}
+
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.productDetails .product-details {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-top: 70px;
+}
+
+.productDetails .product-details h2{
+    color: #D20A2C
+}
+
+.productDetails .product-details button{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #D20A2C;
+    padding: 10px;
+    width: 120px;
+    border-radius: 0.5em;
+    border: none;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 900px){
+    .productDetails .product-details button{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+  
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: lightgray;
+    border: 2px solid white;
+  }

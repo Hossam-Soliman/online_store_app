@@ -1,0 +1,39 @@
+.AddItem{
+    font-size: 18px;
+    margin-top: 50px
+}
+
+.AddItem select{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 2px;
+}
+
+.AddItem button{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #D20A2C;
+    padding: 4px;
+    width: 70px;
+    border-radius: 0.5em;
+    border: none;
+    animation: upButton 1s ease-out forwards 
+}
+
+@keyframes upButton{
+    0%{transform: translateY(300px)}
+    100%{transform-origin: top;}
+}
+
+.AddItem .addText{
+    animation: droptext 2s ease-out forwards;
+    
+    
+}
+
+@keyframes droptext{
+    from{transform: translateY(-500px)}
+    to{transform-origin: top;}
+}

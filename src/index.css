@@ -1,0 +1,159 @@
+
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  color: var(--mainDark) !important;
+  background-color: var(--mainWhite) !important;
+}
+
+
+nav .left-nav{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: -20px;
+  display: inline-block;
+ font-weight: bold;
+ 
+}
+
+nav .left-nav li{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+
+nav .left-nav a li:hover{
+  color: #D20A2C;
+}
+
+nav .left-nav a{
+ color: black
+}
+
+
+nav .left-nav li img{
+  margin-top:-10px;
+  width: 120px;
+  height: 140px;
+  margin-right: -30px;
+  
+}
+
+.line{
+  border-right: 1px solid #2a2a72;
+  margin: 0 15px
+ 
+}
+
+
+nav .right-nav{
+  float: right;
+  margin-top: 30px;
+  margin-right: 140px;
+}
+
+
+@media screen and (max-width: 850px){
+
+  nav .left-nav{  
+    margin-left: 0px;   
+  }
+
+  nav .left-nav li{
+    
+    margin-right: 10px;
+    
+  }
+
+  nav .right-nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+
+  nav .right-nav li{
+    margin-left: 5px;
+    
+    
+  }
+
+}
+
+
+@media screen and (max-width: 550px){
+
+  nav .left-nav{  
+    margin-left: 0px;   
+  }
+
+  nav .left-nav li{
+    
+    margin-right: 10px;
+    font-size: 15px;
+  
+  
+  }
+
+  nav .right-nav{
+    float: left;
+   
+  }
+
+  nav .right-nav li{
+  
+    font-size: 15px;
+    
+  }
+
+}
+
+
+
+.AddItem {
+  margin: 100px;
+  text-align: -webkit-center;
+  width: auto;
+
+}
+
+.AddItem form input{
+  display: block;
+  width: 350px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px
+}
+
+table{
+  width: 1000px;
+  text-align: center;
+}
+
+table th, td{
+  height: 50px;
+  border: 1px solid black
+}
+
+
+.button{
+
+  color: #fff;
+  background-color: #D20A2C;
+  padding: 5px;
+  width: 90px;
+  border-radius: 0.5em;
+  border: none;
+  font-size: 17px;
+}
+
+.paypal-button{
+  text-align: center !important;
+}

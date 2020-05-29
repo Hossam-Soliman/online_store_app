@@ -1,0 +1,76 @@
+.products-list{
+    margin-top: 50px;
+  }
+
+  .products-list a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .products-list .product{
+    margin: 20px 0;
+    background-color: var(--mainWhite);
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .products-list .product img{
+    width: 99%;
+    height: 70%;
+    text-align: center;
+    margin-bottom: 35px ;
+   
+  }
+  
+  .products-list .product span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .products-list .product:hover span{
+    transform:translateY(-30px)
+  }
+  
+  
+  
+  
+  .products-list .product:hover{
+    box-shadow: 1px 1px 5px lightgrey;
+    animation: anim1 0.2s ease-in-out forwards;
+  }
+  
+  @keyframes anim1{
+    from{transform: scale(1, 1);}
+    to{transform: scale(0.99, 0.99);}
+  }
+  
+  
+  .products-list .product button{
+    text-align: center;
+    margin-top: -10px;
+    opacity: 0;
+    color: #fff;
+    background-color: #D20A2C;
+    padding: 10px;
+    width: 120px;
+    border-radius: 0.5em;
+    border: none;
+   }
+   
+  
+  .products-list .product:hover button{
+    
+    animation: anim2 0.2s ease-in-out forwards;
+  }
+  
+  @keyframes anim2{
+    from {transform: translateY(20px); opacity: 0;}
+    to {transform-origin: top; opacity: 1;}
+  }
+  
+  
